@@ -52,7 +52,7 @@ That makes this gate a little unusual, sort of a "hybrid"
 between how illumos-gate does things and how the "userland"
 gate does things.  There are good reasons for this.
 
-The kernel code is very much operaging-system-specific,
+The kernel code is very much operating-system-specific,
 and therefore can not simply track some "upstream" like
 the user-level library code can.  It's also a little
 tricky to build kernel code "correctly", which is why
